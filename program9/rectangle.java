@@ -36,6 +36,11 @@ public class rectangle {
         return breadth;
     }
 
+    public void setbreadth(int breadth) // setter method
+    {
+        this.breadth = breadth;
+    }
+
     public int getarea() {
         return length * breadth;
     }
